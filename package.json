@@ -1,0 +1,33 @@
+{
+  "name": "crankover.com",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "pnpm@10.16.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/billing.test.mjs tests/platform.test.mjs"
+  },
+  "dependencies": {
+    "@clerk/clerk-react": "^5.21.0",
+    "@google/genai": "^1.38.0",
+    "browser-image-compression": "2.0.2",
+    "convex": "^1.19.0",
+    "framer-motion": "^12.29.2",
+    "lucide-react": "^0.563.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^7.2.0",
+    "stripe": "^20.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
